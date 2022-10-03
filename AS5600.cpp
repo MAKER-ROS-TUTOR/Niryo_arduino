@@ -103,7 +103,7 @@ void update_current_position(int microsteps)
  // Serial.print("RAW CPR: ");
  // Serial.println( sensor_position);
 //  Serial.print(" ,MOTOR POS: ");
-//  Serial.println(motor_position_steps);
+  Serial.println(motor_position_steps);
 
    if( micros() % 2 == 0){
        //  Serial.print(sensor_position);
